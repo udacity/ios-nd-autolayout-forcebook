@@ -12,6 +12,8 @@
 		EDDC28111DF8A15800FED1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDC280F1DF8A15800FED1E0 /* Main.storyboard */; };
 		EDDC28131DF8A15800FED1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDC28121DF8A15800FED1E0 /* Assets.xcassets */; };
 		EDDC28161DF8A15800FED1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDC28141DF8A15800FED1E0 /* LaunchScreen.storyboard */; };
+		EDDC281F1DF8A72B00FED1E0 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDDC281E1DF8A72B00FED1E0 /* yoda.jpg */; };
+		EDDC28211DF8A73400FED1E0 /* rebellAlliance.png in Resources */ = {isa = PBXBuildFile; fileRef = EDDC28201DF8A73400FED1E0 /* rebellAlliance.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EDDC28121DF8A15800FED1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDC28151DF8A15800FED1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDC28171DF8A15800FED1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDC281E1DF8A72B00FED1E0 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		EDDC28201DF8A73400FED1E0 /* rebellAlliance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebellAlliance.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		EDDC280A1DF8A15800FED1E0 /* forcebook */ = {
 			isa = PBXGroup;
 			children = (
+				EDDC281D1DF8A71B00FED1E0 /* Resources */,
 				EDDC280B1DF8A15800FED1E0 /* AppDelegate.swift */,
 				EDDC280D1DF8A15800FED1E0 /* ViewController.swift */,
 				EDDC280F1DF8A15800FED1E0 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				EDDC28171DF8A15800FED1E0 /* Info.plist */,
 			);
 			path = forcebook;
+			sourceTree = "<group>";
+		};
+		EDDC281D1DF8A71B00FED1E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDDC28201DF8A73400FED1E0 /* rebellAlliance.png */,
+				EDDC281E1DF8A72B00FED1E0 /* yoda.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDC281F1DF8A72B00FED1E0 /* yoda.jpg in Resources */,
 				EDDC28161DF8A15800FED1E0 /* LaunchScreen.storyboard in Resources */,
 				EDDC28131DF8A15800FED1E0 /* Assets.xcassets in Resources */,
 				EDDC28111DF8A15800FED1E0 /* Main.storyboard in Resources */,
+				EDDC28211DF8A73400FED1E0 /* rebellAlliance.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

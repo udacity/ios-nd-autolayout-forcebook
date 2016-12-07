@@ -22,13 +22,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-Zz-raH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="yoda.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-Zz-raH">
                                 <rect key="frame" x="29" y="43" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eZ1-Zz-raH" secondAttribute="height" multiplier="1:1" id="QoL-AH-J4R"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7MH-hZ-QTA">
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="rebellAlliance.png" translatesAutoresizingMaskIntoConstraints="NO" id="7MH-hZ-QTA">
                                 <rect key="frame" x="131" y="146" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7MH-hZ-QTA" secondAttribute="height" multiplier="1:1" id="Zpy-Jg-gby"/>
@@ -45,4 +45,8 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="rebellAlliance.png" width="360" height="360"/>
+        <image name="yoda.jpg" width="1200" height="1200"/>
+    </resources>
 </document>
