@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="yoda.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eZ1-Zz-raH">
@@ -38,6 +38,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7MH-hZ-QTA" firstAttribute="width" secondItem="7MH-hZ-QTA" secondAttribute="height" multiplier="1:1" id="3z5-mD-BjD"/>
+                            <constraint firstItem="7MH-hZ-QTA" firstAttribute="leading" secondItem="eZ1-Zz-raH" secondAttribute="trailing" constant="-48" id="H1o-fA-UyS"/>
+                            <constraint firstItem="7MH-hZ-QTA" firstAttribute="top" secondItem="eZ1-Zz-raH" secondAttribute="bottom" constant="-47" id="c88-54-FMk"/>
                         </constraints>
                     </view>
                 </viewController>
